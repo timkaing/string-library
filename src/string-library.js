@@ -155,3 +155,17 @@ const toUpper = (letter) => {
   }
   return uppercase;
 };
+
+module.exports.test = test;
+module.exports.capitalize = capitalize;
+module.exports.allCaps = allCaps;
+module.exports.allLower = allLower;
+module.exports.capitalizeWords = capitalizeWords;
+module.exports.oddCaps = oddCaps;
+module.exports.evenCaps = evenCaps;
+module.exports.removeExtraSpace = removeExtraSpace;
+module.exports.kabobCase = kabobCase;
+module.exports.snakeCase = snakeCase;
+module.exports.camelCase = camelCase;
+module.exports.toLower = toLower;
+module.exports.toUpper = toUpper;

@@ -4,7 +4,7 @@
   "description": "A basic javascript string library that will manipulate strings in nine different ways",
   "main": "string-library.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,8 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.0"
+    "eslint-plugin-import": "^2.18.0",
+    "jest": "^24.8.0",
+    "rollup": "^1.17.0"
   }
 }
