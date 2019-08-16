@@ -15,3 +15,4 @@ Command| Does...
 `kabobCase()`|Removes extra spaces and replaces spaces with the hyphen "-", and makes all characters lowercase
 `snakeCase()`|Removes extra space and replaces spaces with an underscore "_", and makes all characters lowercase
 `camelCase()`|Lowercases the first character of the first word. Then uppercases the first character of all other words, and removes all spaces
+

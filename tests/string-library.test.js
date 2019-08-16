@@ -49,14 +49,11 @@ test('Capitalize Each Word', () => {
 
 test('Capitalize Odd Characters', () => {
   expect(oddCaps('a a a a a')).toBe('a a a a a');
-  expect(oddCaps(' a a a a a')).toBe(' A A A A A');
+  expect(oddCaps('eoeoeo')).toBe('eOeOeO');
 });
 
 test('Capitalize Even Characters', () => {
   expect(evenCaps('eoeoeo')).toBe('EoEoEo');
-  expect(evenCaps('')).toBe('');
-  expect(evenCaps('')).toBe('');
-  expect(evenCaps('')).toBe('');
 });
 
 test('Remove Extra Spaces Around Characters', () => {
@@ -81,22 +78,20 @@ test('Convert to Snake Case', () => {
 });
 
 test('Convert to Camel Case', () => {
-  expect(camelCase('ayy lmao')).toBe('ayylmao');
+  expect(camelCase('ayy lmao')).toBe('ayyLmao');
   expect(camelCase('4 chan')).toBe('4Chan');
   expect(camelCase('69 420')).toBe('69420');
   expect(camelCase('')).toBe('');
 });
 
 test('Convert Character to Lowercase', () => {
-  expect(toLower('')).toBe('');
-  expect(toLower('')).toBe('');
-  expect(toLower('')).toBe('');
-  expect(toLower('')).toBe('');
+  expect(toLower('A')).toBe('a');
+  expect(toLower('a')).toBe('a');
+  expect(toLower('1')).toBe('1');
 });
 
 test('Convert Character to Uppercase', () => {
-  expect(toUpper('')).toBe('');
-  expect(toUpper('')).toBe('');
-  expect(toUpper('')).toBe('');
-  expect(toUpper('')).toBe('');
+  expect(toUpper('a')).toBe('A');
+  expect(toUpper('A')).toBe('A');
+  expect(toUpper('1')).toBe('1');
 });
